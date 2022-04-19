@@ -47,19 +47,27 @@ img {
   max-width: 100%;
   height: auto;
 }
-/* Index.html */
 
-/*  */
+/* Global section styles */
+
+.section {
+  padding: 94px 0px;
+}
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+/* ------Container----- */
+
 .container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding: 0 15px;
-
-  /* outline: 1px solid tomato; */
 }
 
-/* Logo */
+/* -------Header-Logo-------- */
 .header {
   border-bottom: 1px solid var(--header-border);
 }
@@ -150,25 +158,12 @@ img {
 }
 
 .header-icon {
-  /* fill: var(--main-grey); */
   fill: currentColor;
   margin-right: 10px;
 }
-/* .header-contact-link:hover .header-icon {
-  fill: var(--main-blue);
-} */
 
-/* Main */
+/*<<<<<<<<< Main >>>>>>>>>*/
 
-/* Global section styles */
-
-.section {
-  padding: 94px 0px;
-}
-.visually-hidden {
-  position: fixed;
-  transform: scale(0);
-}
 /* ------------------------- Hero section ------------------------- */
 .hero-section {
   text-align: center;
